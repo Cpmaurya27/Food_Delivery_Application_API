@@ -29,4 +29,4 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
 #     - name: Execute Jar file
-#       run: sudo kill -9 `sudo lsof -t -i:8080` & sudo java -jar /home/ubuntu/pro/actions-runner/_work/Music_streaming_api/Music_streaming_api/target/Music-streaming-service-API-0.0.1-SNAPSHOT.jar  &
+#       run: sudo kill -9 `sudo lsof -t -i:8080` & sudo java -jar /home/ubuntu/actions-runner/_work/Food_Delivery_Application_API/Food_Delivery_Application_API/target/Food-Delivery-Application-API-0.0.1-SNAPSHOT.jar  &
